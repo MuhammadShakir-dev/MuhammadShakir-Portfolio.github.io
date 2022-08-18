@@ -1,0 +1,661 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0%;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.sidebar {
+  width: 18%;
+  height: 100vh;
+  background-color: rgb(189, 93, 56);
+  display: block;
+  float: left;
+  position: fixed;
+}
+
+.sidebar img {
+  width: 150px;
+  height: 150px;
+  margin-top: 130px;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgba(225, 225, 225, 0.7);
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar .active {
+  color: white;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.about {
+  width: 82%;
+  height: 100vh;
+  display: block;
+  float: right;
+  margin-bottom: 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+h1 {
+  margin-left: 90px;
+  margin-top: 150px;
+  letter-spacing: -6px;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 0%;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 span {
+  color: rgb(189, 93, 56);
+}
+.email {
+  color: rgb(189, 93, 56);
+  font-weight: light;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 7.5%;
+  margin-bottom: 0%;
+}
+
+.about .emailto {
+  color: rgb(189, 93, 56);
+}
+.phno {
+  margin-left: 7.5%;
+  margin-bottom: 0%;
+  margin-top: 6px;
+  color: grey;
+}
+.intro {
+  width: 900px;
+  margin-left: 7.5%;
+  margin-top: 40px;
+  color: grey;
+}
+.icons {
+  display: inline-block;
+  margin-left: 7.5%;
+  margin-top: 30px;
+}
+
+.icons i:hover {
+  color: rgb(189, 93, 56);
+}
+.icons a {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.experience {
+  width: 82%;
+  height: 100vh;
+  display: block;
+  float: right;
+  border-bottom: 1px solid lightgrey;
+}
+
+.experience h1 {
+  color: rgb(54, 52, 58);
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+
+.exp1 {
+  height: 150px;
+  margin-left: 2%;
+  margin-bottom: 0%;
+}
+.exp1 h3 {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.exp1 h4 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.exp1 p {
+  margin-top: 5px;
+}
+
+.date {
+  float: right;
+  margin-right: 40px;
+  margin-top: -8%;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.exp2 {
+  height: 150px;
+  margin-left: 2%;
+}
+.exp2 h3 {
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.exp2 h4 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.exp2 p {
+  margin-top: 5px;
+}
+
+.date2 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -8%;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.exp3 {
+  height: 150px;
+  margin-left: 2%;
+}
+.exp3 h3 {
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.exp3 h4 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.exp3 p {
+  margin-top: 5px;
+}
+
+.date3 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -8%;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.education {
+  width: 82%;
+  height: 100vh;
+  display: block;
+  float: right;
+  border-bottom: 1px solid lightgrey;
+}
+
+.education h1 {
+  color: rgb(54, 52, 58);
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+
+.edu1 {
+  height: 150px;
+  margin-left: 2%;
+  margin-bottom: 0%;
+}
+.edu1 h3 {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.edu1 h4 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.edu1 p {
+  margin-top: 5px;
+}
+
+.date {
+  float: right;
+  margin-right: 40px;
+  margin-top: -8%;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.edu2 {
+  height: 150px;
+  margin-left: 2%;
+}
+.edu2 h3 {
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.edu2 h4 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.edu2 p {
+  margin-top: 5px;
+}
+
+.date2 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -8%;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.edu3 {
+  height: 150px;
+  margin-left: 2%;
+}
+.edu3 h3 {
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.edu3 h4 {
+  color: grey;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.edu3 p {
+  margin-top: 5px;
+}
+
+.date3 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -8%;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.skills {
+  width: 82%;
+  height: 100vh;
+  display: block;
+  float: right;
+  border-bottom: 1px solid lightgrey;
+}
+
+.skills h1 {
+  color: rgb(54, 52, 58);
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+
+.skills h3 {
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: 2%;
+}
+
+.skills p {
+  margin-left: 2%;
+}
+
+.skills p span {
+  color: red;
+  letter-spacing: 3px;
+}
+
+.skillsicons {
+  height: 100px;
+  margin-left: 2%;
+  margin-top: 3%;
+  margin-bottom: 0%;
+}
+
+.skillsicons i {
+  color: lightgrey;
+  font-size: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skillsicons i:hover {
+  color: rgb(189, 93, 56);
+}
+
+.skillsqual p {
+  color: grey;
+}
+
+.interests {
+  width: 82%;
+  height: 100vh;
+  display: block;
+  float: right;
+  border-bottom: 1px solid lightgrey;
+}
+
+.interests h1 {
+  color: rgb(54, 52, 58);
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  margin-top: 13%;
+}
+
+.interests p {
+  margin-left: 2%;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.awards {
+  width: 82%;
+  height: 100vh;
+  display: block;
+  float: right;
+}
+
+.awards h1 {
+  color: rgb(54, 52, 58);
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin-top: 13%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+
+.awards p {
+  margin-left: 2%;
+  color: grey;
+}
+
+.awards span {
+  color: rgb(189, 93, 56);
+}
+
+@media only screen and (max-width: 414px) {
+  body {
+    padding: 0%;
+    margin: 0%;
+    
+  }
+  .sidebar {
+    width: 100%;
+    height: 5%;
+    display: block;
+    margin-bottom: 0%;
+    position: fixed;
+  }
+  .sidebar a {
+    display: none;
+  }
+  .sidebar img {
+    display: none;
+  }
+
+  .about {
+    display: block;
+    margin-top: 0%;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+  .about h1 {
+    display: block;
+    margin-left: 10%;
+    margin-top: 30%;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 0%;
+  }
+
+  .about .email {
+    margin-left: 10%;
+    margin-top: 1%;
+  }
+  .about .phno {
+    margin-left: 10%;
+    margin-top: 1%;
+  }
+
+  .intro {
+    width: 90%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    float: left;
+  }
+
+  .about .icons{
+    margin-bottom: -5%;
+    margin-top: 2%;
+  }
+
+  .experience {
+    margin-left: 0%;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .experience h1 {
+    margin-left: 5%;
+  }
+  .experience .exp1 {
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    margin-top: 15%;
+  }
+
+  .exp1 .date {
+    display: block;
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 0%;
+  }
+
+  .date p {
+    margin-bottom: 0%;
+  }
+
+  .exp2 {
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    margin-top: 25%;
+  }
+  .exp2 .date2 {
+    display: block;
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 0%;
+  }
+  .date2 p {
+    margin-bottom: 0%;
+  }
+
+  .exp3 {
+    width: 90%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    margin-top: 25%;
+  }
+  .exp3 .date3 {
+    display: block;
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 0%;
+  }
+  .date3 p {
+    margin-bottom: 0%;
+  }
+
+  .experience {
+    margin-left: 0%;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .education {
+    width: 100%;
+    height: 100vh;
+  }
+  .education h1 {
+    margin-left: 5%;
+  }
+  .education .edu1 {
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    margin-top: 15%;
+  }
+
+  .edu1 .date {
+    display: block;
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 0%;
+  }
+
+  .date p {
+    margin-bottom: 0%;
+  }
+
+  .edu2 {
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    margin-top: 25%;
+  }
+  .edu2 .date2 {
+    display: block;
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 0%;
+  }
+  .date2 p {
+    margin-bottom: 0%;
+  }
+
+  .edup3 {
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    margin-top: 25%;
+  }
+  .edu3 .date3 {
+    display: block;
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 0%;
+  }
+  .date3 p {
+    margin-bottom: 0%;
+  }
+
+  .skills {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .skills h1 {
+    margin-bottom: 0%;
+    margin-left: 5%;
+  }
+
+  .skills .skillsicons {
+    margin-bottom: 10%;
+    padding: 5px;
+  }
+
+  .skills .skillsqual {
+    padding: 2px;
+    text-align: left;
+  }
+
+  .interests {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .interests h1 {
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-top: 50%;
+  }
+  .interests p {
+    margin-left: 5%;
+  }
+
+  .awards {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .awards h1 {
+    margin-left: 5%;
+  }
+
+  .awards p {
+    margin-left: 5%;
+  }
+}
